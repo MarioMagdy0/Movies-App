@@ -1,0 +1,12 @@
+.movieCard {
+  background-image: url(https://m.media-amazon.com/images/I/71niXI3lxlL._AC_SY679_.jpg);
+  z-index: 1000;
+  width: 1000px;
+  height: 675px;
+}
+
+.movieName {
+  color: #56cbb0;
+  display: flex;
+  justify-items: end;
+}
