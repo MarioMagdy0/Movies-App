@@ -17,11 +17,11 @@ function App() {
         <Route path="/about">
           <About />
         </Route>
+        <Route exact path={["/", "/Movies-App"]}>
+          <Home page={page} setPage={setPage} />
+        </Route>
         <Route path="/:id">
           <MovieDetails />
-        </Route>
-        <Route path="/">
-          <Home page={page} setPage={setPage} />
         </Route>
       </Switch>
       <Footer />
